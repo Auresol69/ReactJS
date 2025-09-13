@@ -1,8 +1,6 @@
-// props = read-only that are shared between components.
-//         A parent component can send data to a child component.
-//         <Component key-value>
-
 import Student from "./Student.jsx"
+import Button from "./Button.jsx"
+import ProfilePicture from "./ProfilePicture.jsx"
 
 function App() {
 
@@ -12,6 +10,10 @@ function App() {
     <Student age={42} isStudent={false}/>
     <Student name="Roy" age={20} isStudent={true}/>
     <Student />    
+      <br />
+      <Button />  
+      <br />
+      <ProfilePicture />
     </>
   )
 }
