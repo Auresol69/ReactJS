@@ -4,6 +4,8 @@
 
 import UserGreeting from "./UserGreeting"
 import List from "./List"
+import Counter from "./Counter";
+import MyComponentOnChange from "./MyComponentOnChange";
 
 function App() {
 
@@ -15,9 +17,13 @@ function App() {
 
   return (
     <>
-      <UserGreeting isLoggedIn={false} />
-      <br />
+      <UserGreeting isLoggedIn={true} />
+      <hr />
       {fruits.length > 0 && <List items={fruits} category="Fruits" />}{/* Components always True */}
+      <hr />
+      <Counter />
+      <hr />
+      <MyComponentOnChange />
     </>)
 }
 
