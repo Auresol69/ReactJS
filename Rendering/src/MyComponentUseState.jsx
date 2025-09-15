@@ -6,7 +6,7 @@
 //              AND a setter function to update its value in the virtual DOM.
 //              [name, setName]
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function MyComponentUseState() {
 

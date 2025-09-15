@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 
 function Update_Array_Of_Object_In_State(){
     const [cars, setCars] = useState([]);
