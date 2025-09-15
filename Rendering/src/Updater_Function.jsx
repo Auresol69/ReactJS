@@ -15,9 +15,13 @@ function Updater_Function() {
 
     function increment() {
         setCount(prevCount => prevCount + 1);
+        setCount(prevCount => prevCount + 1);
+        setCount(prevCount => prevCount + 1);
     }
 
     function decrement() {
+        setCount(prevCount => prevCount - 1);
+        setCount(prevCount => prevCount - 1);
         setCount(prevCount => prevCount - 1);
     }
 

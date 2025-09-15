@@ -9,6 +9,8 @@ import MyComponentOnChange from "./MyComponentOnChange";
 import ColorPicker from "./ColorPicker";
 import Updater_Function from "./Updater_Function";
 import Update_Object_In_State from "./Update_Object_In_State";
+import Update_Array_In_State from "./Update_Array_In_State";
+import Update_Array_Of_Object_In_State from "./Update_Array_Of_Object_In_State";
 
 function App() {
 
@@ -33,6 +35,10 @@ function App() {
       <Updater_Function />
       <hr />
       <Update_Object_In_State />
+      <hr />
+      <Update_Array_In_State />
+      <hr />
+      <Update_Array_Of_Object_In_State />
     </>)
 }
 
