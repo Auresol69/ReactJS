@@ -6,6 +6,9 @@ import UserGreeting from "./UserGreeting"
 import List from "./List"
 import Counter from "./Counter";
 import MyComponentOnChange from "./MyComponentOnChange";
+import ColorPicker from "./ColorPicker";
+import Updater_Function from "./Updater_Function";
+import Update_Object_In_State from "./Update_Object_In_State";
 
 function App() {
 
@@ -24,6 +27,12 @@ function App() {
       <Counter />
       <hr />
       <MyComponentOnChange />
+      <hr />
+      <ColorPicker />
+      <hr />
+      <Updater_Function />
+      <hr />
+      <Update_Object_In_State />
     </>)
 }
 
