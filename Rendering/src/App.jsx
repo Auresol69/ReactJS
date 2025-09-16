@@ -11,6 +11,7 @@ import Updater_Function from "./Updater_Function";
 import Update_Object_In_State from "./Update_Object_In_State";
 import Update_Array_In_State from "./Update_Array_In_State";
 import Update_Array_Of_Object_In_State from "./Update_Array_Of_Object_In_State";
+import User_Effect from "./Use_Effect";
 
 function App() {
 
@@ -39,6 +40,8 @@ function App() {
       <Update_Array_In_State />
       <hr />
       <Update_Array_Of_Object_In_State />
+      <hr />
+      <User_Effect />
     </>)
 }
 
